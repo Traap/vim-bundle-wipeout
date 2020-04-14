@@ -2,6 +2,7 @@
 if exists('g:loaded_bundle_wipeout')
   finish
 endif
+let g:loaded_bundle_wipeout=1
 " -------------------------------------------------------------------------- }}}
 " {{{ Wipeout all buffers.
 function! Wipeout()
